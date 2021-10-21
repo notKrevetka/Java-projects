@@ -26,15 +26,7 @@ public class Loor {
         return (a==0 || a == 1) ? 1 : a * fac(a-1);
     }
 
-    public static double pow(double st, double tt) {
-        double tst=1;
-        if (st==0){
-            return 1;
-        }
-        else {
-            for (int b = 1; b <= st; b++) {
-                tst *= tt;}
-        }
-        return (tst);
+    public static double pow(double b, double a) {
+        return (b <= 0) ? ((b < 0) ? pow(-b, 1/a) : 1) : (a * pow(b-1, a));
     }
 }
