@@ -55,7 +55,7 @@ public class TimeTableLine {
     }
 
     public String toString() {
-        return this.getTimeStart() + " " + this.getDiscipline() + " " + this.getRoom();
+        return this.timeStart + " " + this.getDiscipline() + " " + this.getRoom();
     }
 
     public String getDiscipline() {
