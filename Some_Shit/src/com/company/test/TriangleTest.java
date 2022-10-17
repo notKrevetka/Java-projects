@@ -8,9 +8,9 @@ class TriangleTest {
 
     @Test
     public void SquareCheck() {
-        Triangle treugolnik = new Triangle(5,4,3);
+        Triangle treugolnik = new Triangle(-5,4,3);
         double actualArea = treugolnik.square();
-        double expectedArea = 6.0;
+        double expectedArea =  ;
         assertEquals(expectedArea, actualArea, 0.01, "ne norm");
     }
 }

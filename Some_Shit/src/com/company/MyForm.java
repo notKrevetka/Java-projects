@@ -29,16 +29,26 @@ public class MyForm extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 String text = textField1.getText();
-                Circle c = new Circle(Integer.parseInt(text));
-                plosh.setText(String.valueOf(c.square()));
+                try{
+                    Circle c = new Circle(Integer.parseInt(text));
+                    plosh.setText(String.valueOf(c.square()));
+                } catch (RuntimeException ex){
+                    plosh.setText(String.valueOf("отрицательный радиус у круга"));
+                }
+
+
             }
         });
         ButtonLength.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String text = textField1.getText();
-                Circle c = new Circle(Integer.parseInt(text));
-                perim.setText(String.valueOf(c.lLength()));
+                try{
+                    Circle c = new Circle(Integer.parseInt(text));
+                    perim.setText(String.valueOf(c.square()));
+                } catch (RuntimeException ex){
+                    perim.setText(String.valueOf("отрицательный радиус у круга"));
+                }
             }
         });
         TriangPerim.addActionListener(new ActionListener() {
@@ -47,11 +57,16 @@ public class MyForm extends JFrame{
                 String st_1Text = st_1.getText();
                 String st_2Text = st_2.getText();
                 String st_3Text = st_3.getText();
-                Triangle t = new Triangle(
-                        Integer.parseInt(st_1Text),
-                        Integer.parseInt(st_2Text),
-                        Integer.parseInt(st_3Text));
-                perTriang.setText(String.valueOf(t.perimetr()));
+                try{
+                    Triangle t = new Triangle(
+                            Integer.parseInt(st_1Text),
+                            Integer.parseInt(st_2Text),
+                            Integer.parseInt(st_3Text));
+                    perTriang.setText(String.valueOf(t.perimetr()));
+                } catch (RuntimeException ex){
+                    perTriang.setText(String.valueOf("что-то не то"));
+                }
+
             }
         });
         TriangSquare.addActionListener(new ActionListener() {
@@ -60,11 +75,15 @@ public class MyForm extends JFrame{
                 String st_1Text = st_1.getText();
                 String st_2Text = st_2.getText();
                 String st_3Text = st_3.getText();
-                Triangle t = new Triangle(
-                        Integer.parseInt(st_1Text),
-                        Integer.parseInt(st_2Text),
-                        Integer.parseInt(st_3Text));
-                squareTriang.setText(String.valueOf(t.square()));
+                try {
+                    Triangle t = new Triangle(
+                            Integer.parseInt(st_1Text),
+                            Integer.parseInt(st_2Text),
+                            Integer.parseInt(st_3Text));
+                    squareTriang.setText(String.valueOf(t.perimetr()));
+                } catch (RuntimeException ex) {
+                    squareTriang.setText(String.valueOf("что-то не то"));
+                }
             }
         });
 

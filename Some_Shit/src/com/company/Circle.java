@@ -4,10 +4,12 @@ public class Circle {
 
     int radius;
 
-    public Circle (int radius) {
+    public Circle(int radius) {
+        if (radius < 0) {
+            throw new RuntimeException("circle radius cant be negative");
+        }
         this.radius = radius;
     }
-
 
     public double square() {
         double v = Math.PI * radius * radius;
