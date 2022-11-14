@@ -1,0 +1,51 @@
+Tue Aug 21 12:27:20 2018; ******** IP traffic monitor started ********
+Tue Aug 21 12:27:20 2018; TCP; eth0; 40 bytes; from 81-1-183-199.broadband.progtech.ru:57780 to 192.168.103.253:ssh; first packet
+Tue Aug 21 12:27:21 2018; TCP; eth0; 152 bytes; from 192.168.103.253:ssh to 81-1-183-199.broadband.progtech.ru:57780; first packet
+Tue Aug 21 12:27:26 2018; UDP; eth0; 139 bytes; from 192.168.103.1:45323 to 255.255.255.255:5678
+Tue Aug 21 12:27:42 2018; TCP; eth0; 48 bytes; from 81-1-183-199.broadband.progtech.ru:57788 to 192.168.103.253:ftp; first packet
+Tue Aug 21 12:27:42 2018; TCP; eth0; 71 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57788; first packet
+Tue Aug 21 12:27:42 2018; TCP; eth0; 52 bytes; from 81-1-183-199.broadband.progtech.ru:57845 to 192.168.103.253:65067; first packet (SYN)
+Tue Aug 21 12:27:42 2018; TCP; eth0; 52 bytes; from 192.168.103.253:65067 to 81-1-183-199.broadband.progtech.ru:57845; first packet (SYN)
+Tue Aug 21 12:27:42 2018; TCP; eth0; 567 bytes; from 81-1-183-199.broadband.progtech.ru:57845 to 192.168.103.253:65067; FIN sent; 6 packets, 1544 bytes, avg flow rate 12.00 kbits/s
+Tue Aug 21 12:27:42 2018; TCP; eth0; 40 bytes; from 192.168.103.253:65067 to 81-1-183-199.broadband.progtech.ru:57845; FIN acknowleged
+Tue Aug 21 12:27:42 2018; TCP; eth0; 40 bytes; from 192.168.103.253:65067 to 81-1-183-199.broadband.progtech.ru:57845; FIN sent; 5 packets, 212 bytes, avg flow rate 1.00 kbits/s
+Tue Aug 21 12:27:42 2018; TCP; eth0; 40 bytes; from 81-1-183-199.broadband.progtech.ru:57845 to 192.168.103.253:65067; FIN acknowleged
+Tue Aug 21 12:27:43 2018; TCP; eth0; 72 bytes; from 81-1-183-199.broadband.progtech.ru:57791 to 192.168.103.253:ftp; first packet
+Tue Aug 21 12:27:43 2018; TCP; eth0; 77 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57791; first packet
+Tue Aug 21 12:27:43 2018; TCP; eth0; 52 bytes; from 81-1-183-199.broadband.progtech.ru:57846 to 192.168.103.253:59539; first packet (SYN)
+Tue Aug 21 12:27:43 2018; TCP; eth0; 52 bytes; from 192.168.103.253:59539 to 81-1-183-199.broadband.progtech.ru:57846; first packet (SYN)
+Tue Aug 21 12:27:43 2018; TCP; eth0; 40 bytes; from 192.168.103.253:59539 to 81-1-183-199.broadband.progtech.ru:57846; FIN sent; 3 packets, 751 bytes, avg flow rate 6.00 kbits/s
+Tue Aug 21 12:27:43 2018; TCP; eth0; 40 bytes; from 81-1-183-199.broadband.progtech.ru:57846 to 192.168.103.253:59539; FIN acknowleged
+Tue Aug 21 12:27:43 2018; TCP; eth0; 40 bytes; from 81-1-183-199.broadband.progtech.ru:57846 to 192.168.103.253:59539; FIN sent; 4 packets, 172 bytes, avg flow rate 1.00 kbits/s
+Tue Aug 21 12:27:43 2018; TCP; eth0; 40 bytes; from 192.168.103.253:59539 to 81-1-183-199.broadband.progtech.ru:57846; FIN acknowleged
+Tue Aug 21 12:27:45 2018; TCP; eth0; 52 bytes; from 81-1-183-199.broadband.progtech.ru:57847 to 192.168.103.253:62172; first packet (SYN)
+Tue Aug 21 12:27:45 2018; TCP; eth0; 52 bytes; from 192.168.103.253:62172 to 81-1-183-199.broadband.progtech.ru:57847; first packet (SYN)
+Tue Aug 21 12:27:45 2018; TCP; eth0; 40 bytes; from 192.168.103.253:62172 to 81-1-183-199.broadband.progtech.ru:57847; FIN sent; 3 packets, 751 bytes, avg flow rate 6.00 kbits/s
+Tue Aug 21 12:27:45 2018; TCP; eth0; 40 bytes; from 81-1-183-199.broadband.progtech.ru:57847 to 192.168.103.253:62172; FIN acknowleged
+Tue Aug 21 12:27:45 2018; TCP; eth0; 40 bytes; from 81-1-183-199.broadband.progtech.ru:57847 to 192.168.103.253:62172; FIN sent; 4 packets, 172 bytes, avg flow rate 1.00 kbits/s
+Tue Aug 21 12:27:45 2018; TCP; eth0; 40 bytes; from 192.168.103.253:62172 to 81-1-183-199.broadband.progtech.ru:57847; FIN acknowleged
+Tue Aug 21 12:28:26 2018; UDP; eth0; 139 bytes; from 192.168.103.1:45323 to 255.255.255.255:5678
+Tue Aug 21 12:29:26 2018; UDP; eth0; 139 bytes; from 192.168.103.1:45323 to 255.255.255.255:5678
+Tue Aug 21 12:30:26 2018; UDP; eth0; 139 bytes; from 192.168.103.1:45323 to 255.255.255.255:5678
+Tue Aug 21 12:31:26 2018; UDP; eth0; 139 bytes; from 192.168.103.1:45323 to 255.255.255.255:5678
+Tue Aug 21 12:32:26 2018; UDP; eth0; 139 bytes; from 192.168.103.1:45323 to 255.255.255.255:5678
+Tue Aug 21 12:32:42 2018; TCP; eth0; 40 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57788; FIN sent; 6 packets, 384 bytes, avg flow rate 0.01 kbits/s
+Tue Aug 21 12:32:42 2018; TCP; eth0; 40 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57788; FIN sent; 7 packets, 424 bytes, avg flow rate 0.01 kbits/s
+Tue Aug 21 12:32:43 2018; TCP; eth0; 54 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57788; FIN sent; 8 packets, 478 bytes, avg flow rate 0.01 kbits/s
+Tue Aug 21 12:32:43 2018; TCP; eth0; 54 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57788; FIN sent; 9 packets, 532 bytes, avg flow rate 0.01 kbits/s
+Tue Aug 21 12:32:44 2018; TCP; eth0; 54 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57788; FIN sent; 10 packets, 586 bytes, avg flow rate 0.01 kbits/s
+Tue Aug 21 12:32:45 2018; TCP; eth0; 40 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57791; FIN sent; 10 packets, 722 bytes, avg flow rate 0.02 kbits/s
+Tue Aug 21 12:32:45 2018; TCP; eth0; 40 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57791; FIN sent; 11 packets, 762 bytes, avg flow rate 0.02 kbits/s
+Tue Aug 21 12:32:45 2018; ICMP; eth0; 82 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:45 2018; ICMP; eth0; 68 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:45 2018; ICMP; eth0; 68 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:46 2018; TCP; eth0; 54 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57788; FIN sent; 11 packets, 640 bytes, avg flow rate 0.02 kbits/s
+Tue Aug 21 12:32:48 2018; ICMP; eth0; 82 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:48 2018; ICMP; eth0; 82 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:48 2018; ICMP; eth0; 82 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:49 2018; TCP; eth0; 54 bytes; from 192.168.103.253:ftp to 81-1-183-199.broadband.progtech.ru:57788; FIN sent; 12 packets, 694 bytes, avg flow rate 0.02 kbits/s
+Tue Aug 21 12:32:52 2018; ICMP; eth0; 82 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:52 2018; ICMP; eth0; 82 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:52 2018; ICMP; eth0; 82 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:55 2018; ICMP; eth0; 82 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
+Tue Aug 21 12:32:55 2018; ICMP; eth0; 82 bytes; from 81-1-183-199.broadband.progtech.ru to 192.168.103.253; dest unrch (host)
