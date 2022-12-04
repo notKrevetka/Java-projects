@@ -1,5 +1,6 @@
 package com.company;
 
 public interface ReadListener {
-    public void reading();
+    void eol();
+    void eof();
 }

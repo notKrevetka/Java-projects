@@ -7,10 +7,13 @@ import java.util.List;
 
 public class PaketReader {
     String filename;
-    public PaketReader(String filename){
+    ArrayList<ReadListener> listeners;
+
+    public PaketReader(String filename, ArrayList<ReadListener> listeners){
         this.filename = filename;
+        this.listeners = listeners;
     }
-    private ReadListener localReader;
+
     public List<Paket> doRead(){
         FileReader fr;
         List<Paket> paketList = new ArrayList<>();
@@ -19,6 +22,7 @@ public class PaketReader {
             BufferedReader br = new BufferedReader(fr);
             String l;
             while ((l = br.readLine()) != null) {
+                this.listeners.forEach((ReadListener x) -> {x.eol();});
                 if (!l.contains("*****")) {
                     paketList.add(new Paket(
                             l.split(";")[0],
@@ -27,8 +31,8 @@ public class PaketReader {
                             l.split(";")[3]
                     ));
                 }
-//                System.out.println(l);
             }
+            this.listeners.forEach((ReadListener x) -> {x.eof();});
 
         } catch (Exception e) {
             System.err.println("что-то нетак");
