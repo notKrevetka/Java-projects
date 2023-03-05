@@ -1,22 +1,14 @@
-import java.io.*;
 import java.util.ArrayList;
-import java.util.List;
-import com.company.Paket;
-import com.company.PaketReader;
-import com.company.ReadListener;
-import com.company.Test;
-import com.company.Test2;
+
+import com.company.*;
 
 
 public class Main {
 
     public static void main(String[] args) {
-        Test test = new Test();
-        Test2 test2 = new Test2();
-        ArrayList<ReadListener> l = new ArrayList<>();
-        l.add(test);
-        l.add(test2);
-        PaketReader pr = new PaketReader("/home/f/Programming/my_sasha/Java-projects/some-text-reader/ok.log", l);
-        pr.doRead();
+        String logfile = "some-text-reader\\ok.log";
+        PaketReaderFactory fact = new PaketReaderFactory();
+        PaketReader logReader = fact.createPacketReader(logfile);
+        logReader.doRead();
     }
 }
